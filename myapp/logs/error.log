@@ -1,0 +1,15 @@
+[2025-12-04 10:22:07,925] ERROR [django.request:253] Internal Server Error: /v1/customer-subscriptions/1/cancel
+Traceback (most recent call last):
+  File "D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\.env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\.env\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\.env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\.env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/v1/customer-subscriptions/1/cancel/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2025-12-04 10:22:07,957] ERROR [django.server:213] "POST /v1/customer-subscriptions/1/cancel HTTP/1.1" 500 85365

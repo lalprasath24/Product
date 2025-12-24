@@ -1,0 +1,13 @@
+[2025-11-03 16:18:16,370] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-03 16:19:38,800] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\Email\views.py changed, reloading.
+[2025-11-03 16:19:40,685] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-03 16:21:25,051] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\Email\views.py changed, reloading.
+[2025-11-03 16:21:27,082] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-03 16:22:29,615] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\Email\views.py changed, reloading.
+[2025-11-03 16:22:31,463] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-03 16:22:53,508] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\Email\views.py changed, reloading.
+[2025-11-03 16:22:55,343] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-03 16:23:08,193] INFO [myapp:28] new_customer_to_delivery_area started
+[2025-11-03 16:23:11,047] INFO [myapp:98] Email send sucessfully
+[2025-11-03 16:23:11,057] INFO [django.server:213] "POST /v1/customers/ HTTP/1.1" 201 0
+[2025-11-03 16:26:20,081] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\myapp\settings.py changed, reloading.

@@ -1,0 +1,431 @@
+[2025-11-03 16:26:21,945] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-03 16:26:41,043] INFO [myapp:28] new_customer_to_delivery_area started
+[2025-11-03 16:26:43,910] INFO [myapp:98] Email send sucessfully
+[2025-11-03 16:26:43,915] INFO [django.server:213] "POST /v1/customers/ HTTP/1.1" 201 0
+[2025-11-03 16:42:53,699] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\Email\views.py changed, reloading.
+[2025-11-03 16:42:55,626] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-03 16:42:59,869] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\Email\views.py changed, reloading.
+[2025-11-03 16:43:02,621] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-03 16:46:04,553] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 149046
+[2025-11-03 18:15:54,366] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 149046
+[2025-11-03 18:16:32,793] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 149046
+[2025-11-18 18:43:14,084] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-19 11:56:20,246] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-19 11:56:53,296] WARNING [django.request:253] Not Found: /
+[2025-11-19 11:56:53,297] WARNING [django.server:213] "GET / HTTP/1.1" 404 2302
+[2025-11-19 11:56:53,594] WARNING [django.request:253] Not Found: /favicon.ico
+[2025-11-19 11:56:53,596] WARNING [django.server:213] "GET /favicon.ico HTTP/1.1" 404 2353
+[2025-11-19 11:56:59,867] INFO [django.server:213] "GET /v1 HTTP/1.1" 301 0
+[2025-11-19 11:56:59,982] INFO [django.server:213] "GET /v1/ HTTP/1.1" 200 5451
+[2025-11-19 11:57:00,078] INFO [django.server:213] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[2025-11-19 11:57:00,080] INFO [django.server:213] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2025-11-19 11:57:00,125] INFO [django.server:213] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2025-11-19 11:57:00,128] INFO [django.server:213] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2025-11-19 11:57:00,161] INFO [django.server:213] "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[2025-11-19 11:57:00,180] INFO [django.server:213] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[2025-11-19 11:57:00,226] INFO [django.server:213] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[2025-11-19 11:57:00,263] INFO [django.server:213] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2025-11-19 11:57:00,294] INFO [django.server:213] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2025-11-19 11:57:00,320] INFO [django.server:213] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2025-11-19 11:57:00,342] INFO [django.server:213] "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[2025-11-19 11:57:00,361] INFO [django.server:213] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2025-11-19 11:57:08,998] INFO [django.server:213] "GET /v1/customers HTTP/1.1" 301 0
+[2025-11-19 11:57:09,539] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 149046
+[2025-11-28 12:13:25,418] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-11-28 12:13:56,186] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60580
+[2025-11-28 12:13:56,554] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60580
+[2025-11-28 12:14:18,719] INFO [django.server:213] "OPTIONS /v1/customers/169/ HTTP/1.1" 200 0
+[2025-11-28 12:14:18,840] INFO [django.server:213] "DELETE /v1/customers/169/ HTTP/1.1" 204 0
+[2025-11-28 12:14:26,583] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-11-28 12:14:26,941] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-11-28 12:16:40,203] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-11-28 12:23:55,956] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-11-28 12:47:27,716] WARNING [django.request:253] Not Found: /
+[2025-11-28 12:47:27,813] WARNING [django.server:213] "GET / HTTP/1.1" 404 2302
+[2025-11-28 12:47:30,459] WARNING [django.request:253] Not Found: /favicon.ico
+[2025-11-28 12:47:30,547] WARNING [django.server:213] "GET /favicon.ico HTTP/1.1" 404 2353
+[2025-11-28 12:47:34,752] INFO [django.server:213] "GET /v1/ HTTP/1.1" 200 5451
+[2025-11-28 12:47:34,899] INFO [django.server:213] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[2025-11-28 12:47:34,905] INFO [django.server:213] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2025-11-28 12:47:34,927] INFO [django.server:213] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2025-11-28 12:47:34,945] INFO [django.server:213] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2025-11-28 12:47:34,966] INFO [django.server:213] "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[2025-11-28 12:47:34,977] INFO [django.server:213] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[2025-11-28 12:47:35,106] INFO [django.server:213] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[2025-11-28 12:47:35,111] INFO [django.server:213] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2025-11-28 12:47:35,129] INFO [django.server:213] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2025-11-28 12:47:35,138] INFO [django.server:213] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2025-11-28 12:47:35,162] INFO [django.server:213] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2025-11-28 12:47:35,172] INFO [django.server:213] "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[2025-11-28 12:47:58,119] INFO [django.server:213] "GET /v1/month_wise_customer_analytics HTTP/1.1" 301 0
+[2025-11-28 12:47:58,838] INFO [django.server:213] "GET /v1/month_wise_customer_analytics/ HTTP/1.1" 200 5493
+[2025-11-28 12:48:15,975] INFO [django.server:213] "GET /v1/month_wise_customer_analytics/ HTTP/1.1" 200 5493
+[2025-11-28 12:51:05,569] INFO [django.server:213] "GET /v1/delivery_area_based_customers HTTP/1.1" 301 0
+[2025-11-28 12:51:05,827] INFO [django.server:213] "GET /v1/delivery_area_based_customers/ HTTP/1.1" 200 143205
+[2025-11-28 12:51:46,206] INFO [django.server:213] "GET /v1/delivery_area_based_customers?excel=true HTTP/1.1" 301 0
+[2025-11-28 12:51:46,440] INFO [django.server:213] "GET /v1/delivery_area_based_customers/?excel=true HTTP/1.1" 200 19604
+[2025-12-02 16:36:11,918] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-12-02 16:36:24,362] INFO [django.server:213] "GET /v1/delivery_area_based_customers?excel=true HTTP/1.1" 301 0
+[2025-12-02 16:36:24,566] INFO [django.server:213] "GET /v1/delivery_area_based_customers/?excel=true HTTP/1.1" 200 19603
+[2025-12-02 16:40:29,562] INFO [django.server:213] "GET /v1/delivery_area_based_customers?excel=true HTTP/1.1" 301 0
+[2025-12-02 16:40:29,762] INFO [django.server:213] "GET /v1/delivery_area_based_customers/?excel=true HTTP/1.1" 200 19602
+[2025-12-02 16:42:08,590] INFO [django.server:213] "GET /v1/delivery_area_based_customers?excel=true HTTP/1.1" 301 0
+[2025-12-02 16:42:10,655] INFO [django.server:213] "GET /v1/delivery_area_based_customers/?excel=true HTTP/1.1" 200 19602
+[2025-12-02 16:43:13,379] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\main\urls.py changed, reloading.
+[2025-12-02 16:43:16,576] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-12-02 16:43:19,767] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\main\urls.py changed, reloading.
+[2025-12-02 16:43:21,750] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-12-02 16:43:26,765] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\main\urls.py changed, reloading.
+[2025-12-02 16:43:29,311] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-12-02 16:43:33,168] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\main\urls.py changed, reloading.
+[2025-12-02 16:43:34,839] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-12-02 16:43:38,034] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\main\urls.py changed, reloading.
+[2025-12-02 16:43:39,928] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-12-02 16:45:39,226] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 16:45:39,507] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 16:47:07,999] INFO [django.server:213] "GET /v1/products HTTP/1.1" 301 0
+[2025-12-02 16:47:08,193] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 12372
+[2025-12-02 16:47:08,283] INFO [django.server:213] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2025-12-02 16:47:08,296] INFO [django.server:213] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2025-12-02 16:47:08,299] INFO [django.server:213] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[2025-12-02 16:47:08,315] INFO [django.server:213] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2025-12-02 16:47:08,319] INFO [django.server:213] "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[2025-12-02 16:47:08,347] INFO [django.server:213] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[2025-12-02 16:47:08,348] INFO [django.server:213] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[2025-12-02 16:47:08,356] INFO [django.server:213] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2025-12-02 16:47:08,366] INFO [django.server:213] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2025-12-02 16:47:08,399] INFO [django.server:213] "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[2025-12-02 16:47:08,405] INFO [django.server:213] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2025-12-02 16:47:08,440] INFO [django.server:213] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2025-12-02 16:47:09,064] WARNING [django.request:253] Not Found: /favicon.ico
+[2025-12-02 16:47:09,066] WARNING [django.server:213] "GET /favicon.ico HTTP/1.1" 404 2353
+[2025-12-02 16:47:58,036] INFO [django.server:213] "GET /v1/products/1 HTTP/1.1" 200 12939
+[2025-12-02 16:48:04,533] WARNING [django.request:253] Not Found: /v1/docs
+[2025-12-02 16:48:04,535] WARNING [django.server:213] "GET /v1/docs HTTP/1.1" 404 12869
+[2025-12-02 16:48:16,263] WARNING [django.request:253] Not Found: /docs
+[2025-12-02 16:48:16,264] WARNING [django.server:213] "GET /docs HTTP/1.1" 404 2332
+[2025-12-02 16:48:22,578] INFO [django.server:213] "GET /v1/ HTTP/1.1" 200 5451
+[2025-12-02 16:48:27,667] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 12372
+[2025-12-02 16:48:30,952] WARNING [django.request:253] Not Found: /v1/products/docs
+[2025-12-02 16:48:30,956] WARNING [django.server:213] "GET /v1/products/docs HTTP/1.1" 404 12896
+[2025-12-02 16:48:50,126] INFO [django.server:213] "GET /v1/products/1 HTTP/1.1" 200 12939
+[2025-12-02 16:50:19,618] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 16:55:14,038] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 16:55:14,064] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 16:57:11,626] INFO [django.server:213] "OPTIONS /v1/products/ HTTP/1.1" 200 0
+[2025-12-02 16:57:11,632] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 16:57:11,633] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 16:57:11,658] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 16:57:18,985] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 16:57:49,160] INFO [django.server:213] "POST /v1/products/ HTTP/1.1" 201 271
+[2025-12-02 16:57:49,175] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:57:56,768] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:08,376] INFO [django.server:213] "OPTIONS /v1/products/5/ HTTP/1.1" 200 0
+[2025-12-02 16:58:08,395] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 16:58:08,397] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 16:58:08,421] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:13,481] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:13,515] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:24,828] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 16:58:24,829] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 16:58:24,848] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:29,458] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:34,111] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 16:58:34,112] WARNING [django.server:213] "DELETE /v1/products/5/ HTTP/1.1" 404 12893
+[2025-12-02 16:58:34,142] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:37,134] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:37,158] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:38,616] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:38,663] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:38,955] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:58:38,977] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:59:11,431] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 16:59:11,432] WARNING [django.server:213] "DELETE /v1/products/5/ HTTP/1.1" 404 12893
+[2025-12-02 16:59:11,447] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:59:13,849] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:59:13,869] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:59:17,520] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 16:59:17,521] WARNING [django.server:213] "DELETE /v1/products/5/ HTTP/1.1" 404 12893
+[2025-12-02 16:59:17,544] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:59:31,079] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 16:59:31,080] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 16:59:31,102] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 16:59:33,883] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 16:59:33,885] WARNING [django.server:213] "DELETE /v1/products/5/ HTTP/1.1" 404 12893
+[2025-12-02 16:59:33,912] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:00:20,389] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:20,390] WARNING [django.server:213] "DELETE /v1/products/5/ HTTP/1.1" 404 12893
+[2025-12-02 17:00:22,391] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:00:22,417] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:00:24,802] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:24,803] WARNING [django.server:213] "DELETE /v1/products/5/ HTTP/1.1" 404 12893
+[2025-12-02 17:00:30,938] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:30,939] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:32,483] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:32,484] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:34,227] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:34,228] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:34,427] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:34,428] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:34,594] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:34,595] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:34,761] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:34,762] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:41,262] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:41,263] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:42,112] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:42,113] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:42,807] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:42,808] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:43,013] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:43,014] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:43,218] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:43,219] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:43,483] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:43,484] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:44,053] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:44,054] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:44,259] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:44,260] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:44,475] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:44,476] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:44,681] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:44,682] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:44,866] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:44,867] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:45,065] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:45,065] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:45,264] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:45,265] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:45,722] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:45,723] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:45,889] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:45,890] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:00:49,338] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:00:49,340] WARNING [django.server:213] "DELETE /v1/products/5/ HTTP/1.1" 404 12893
+[2025-12-02 17:01:22,170] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:22,171] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:23,911] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:23,912] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:24,404] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:24,405] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:24,604] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:24,605] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:24,804] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:24,805] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:24,996] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:24,997] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:25,949] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:25,950] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:26,132] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:26,133] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:26,310] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:26,312] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:26,484] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:26,485] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:27,070] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:27,071] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:27,268] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:27,269] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:27,492] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:27,493] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:27,804] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:27,805] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:28,051] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:28,052] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:28,285] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:28,286] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:28,996] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:28,997] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:01:29,189] WARNING [django.request:253] Bad Request: /v1/products/
+[2025-12-02 17:01:29,190] WARNING [django.server:213] "POST /v1/products/ HTTP/1.1" 400 51
+[2025-12-02 17:02:05,609] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:02:05,629] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:02:07,914] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:02:07,915] WARNING [django.server:213] "DELETE /v1/products/5/ HTTP/1.1" 404 12893
+[2025-12-02 17:02:13,109] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:02:13,110] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:02:39,703] WARNING [django.request:253] Not Found: /v1/products/5/
+[2025-12-02 17:02:39,704] WARNING [django.server:213] "PUT /v1/products/5/ HTTP/1.1" 404 12890
+[2025-12-02 17:03:19,972] INFO [django.server:213] "POST /v1/products/ HTTP/1.1" 201 265
+[2025-12-02 17:03:19,993] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1373
+[2025-12-02 17:03:26,902] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1373
+[2025-12-02 17:03:34,087] INFO [django.server:213] "OPTIONS /v1/products/6/ HTTP/1.1" 200 0
+[2025-12-02 17:03:34,096] WARNING [django.request:253] Not Found: /v1/products/6/
+[2025-12-02 17:03:34,097] WARNING [django.server:213] "PUT /v1/products/6/ HTTP/1.1" 404 12890
+[2025-12-02 17:03:54,970] WARNING [django.request:253] Not Found: /v1/products/6/
+[2025-12-02 17:03:54,971] WARNING [django.server:213] "PUT /v1/products/6/ HTTP/1.1" 404 12890
+[2025-12-02 17:04:28,968] INFO [django.server:213] "GET /v1/products/6 HTTP/1.1" 200 12892
+[2025-12-02 17:04:44,980] INFO [django.server:213] "PUT /v1/products/6 HTTP/1.1" 200 12892
+[2025-12-02 17:04:52,392] WARNING [django.request:253] Not Found: /v1/products/6/
+[2025-12-02 17:04:52,393] WARNING [django.server:213] "PUT /v1/products/6/ HTTP/1.1" 404 12890
+[2025-12-02 17:07:39,977] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1373
+[2025-12-02 17:07:40,013] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1373
+[2025-12-02 17:07:46,118] INFO [django.server:213] "OPTIONS /v1/products/6 HTTP/1.1" 200 0
+[2025-12-02 17:07:46,142] INFO [django.server:213] "PUT /v1/products/6 HTTP/1.1" 200 265
+[2025-12-02 17:07:46,167] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1373
+[2025-12-02 17:07:48,891] WARNING [django.request:253] Not Found: /v1/products/6/
+[2025-12-02 17:07:48,893] WARNING [django.server:213] "DELETE /v1/products/6/ HTTP/1.1" 404 12893
+[2025-12-02 17:07:53,054] WARNING [django.request:253] Not Found: /v1/products/6/
+[2025-12-02 17:07:53,056] WARNING [django.server:213] "DELETE /v1/products/6/ HTTP/1.1" 404 12893
+[2025-12-02 17:08:05,924] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1373
+[2025-12-02 17:08:05,948] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1373
+[2025-12-02 17:08:08,065] INFO [django.server:213] "DELETE /v1/products/6 HTTP/1.1" 204 0
+[2025-12-02 17:08:08,079] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:08:18,960] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:08:19,229] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:08:41,393] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:08:41,417] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:08:48,671] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:08:48,939] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:09:53,255] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:09:53,275] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:09:56,513] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:09:56,803] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:09:59,100] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:09:59,128] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:10:03,999] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:10:04,370] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:10:09,627] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:10:09,647] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:10:24,550] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:10:24,567] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:11:06,164] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:11:12,076] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:11:12,101] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:12:33,504] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:12:33,541] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:13:14,570] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:16:32,594] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:16:32,617] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:16:48,133] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:16:48,168] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:16:50,964] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:16:50,981] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:16:54,203] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:16:54,227] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:17:18,370] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:17:18,401] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 1107
+[2025-12-02 17:18:51,760] INFO [django.server:213] "OPTIONS /v1/products/5 HTTP/1.1" 200 0
+[2025-12-02 17:18:51,808] INFO [django.server:213] "DELETE /v1/products/5 HTTP/1.1" 204 0
+[2025-12-02 17:18:51,828] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 17:18:55,751] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:18:55,767] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:19:34,550] INFO [django.server:213] "OPTIONS /v1/subscriptionPlan/ HTTP/1.1" 200 0
+[2025-12-02 17:19:34,567] WARNING [django.request:253] Bad Request: /v1/subscriptionPlan/
+[2025-12-02 17:19:34,570] WARNING [django.server:213] "POST /v1/subscriptionPlan/ HTTP/1.1" 400 54
+[2025-12-02 17:19:46,012] WARNING [django.request:253] Bad Request: /v1/subscriptionPlan/
+[2025-12-02 17:19:46,013] WARNING [django.server:213] "POST /v1/subscriptionPlan/ HTTP/1.1" 400 54
+[2025-12-02 17:20:37,263] INFO [django.server:213] "POST /v1/subscriptionPlan/ HTTP/1.1" 201 202
+[2025-12-02 17:20:37,286] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 620
+[2025-12-02 17:20:54,597] INFO [django.server:213] "OPTIONS /v1/subscriptionPlan/5/ HTTP/1.1" 200 0
+[2025-12-02 17:20:54,623] WARNING [django.request:253] Not Found: /v1/subscriptionPlan/5/
+[2025-12-02 17:20:54,631] WARNING [django.server:213] "PUT /v1/subscriptionPlan/5/ HTTP/1.1" 404 12914
+[2025-12-02 17:21:03,481] WARNING [django.request:253] Not Found: /v1/subscriptionPlan/5/
+[2025-12-02 17:21:03,482] WARNING [django.server:213] "PUT /v1/subscriptionPlan/5/ HTTP/1.1" 404 12914
+[2025-12-02 17:21:50,242] INFO [django.server:213] "OPTIONS /v1/subscriptionPlan/5 HTTP/1.1" 200 0
+[2025-12-02 17:21:50,286] INFO [django.server:213] "PUT /v1/subscriptionPlan/5 HTTP/1.1" 200 202
+[2025-12-02 17:21:50,414] INFO [django.server:213] "GET /v1/subscriptionPlan HTTP/1.1" 301 0
+[2025-12-02 17:21:50,472] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 620
+[2025-12-02 17:21:54,413] INFO [django.server:213] "DELETE /v1/subscriptionPlan/5 HTTP/1.1" 204 0
+[2025-12-02 17:21:54,455] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:24:54,684] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:24:54,760] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:24:59,808] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 17:24:59,830] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 17:25:03,209] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:25:03,238] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:25:11,101] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:25:11,123] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:30:10,033] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:30:10,357] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:30:16,569] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:30:16,843] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:32:37,662] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:32:38,010] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 17:32:41,165] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:32:41,228] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:32:46,249] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:32:46,313] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:33:09,026] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 17:33:09,041] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 18:22:14,442] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 18:22:14,783] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-02 18:22:22,571] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 18:22:22,596] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-02 18:22:25,817] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-02 18:22:25,840] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 10:13:04,604] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-03 10:13:04,632] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-03 10:13:08,298] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:13:08,607] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:13:18,955] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 10:13:18,977] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 10:13:22,685] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:13:23,049] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:20:21,900] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:20:22,300] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:23:25,932] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:23:26,290] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:23:30,208] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 10:23:30,227] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 10:25:08,058] INFO [django.server:213] "GET /v1/customer-subscriptions HTTP/1.1" 301 0
+[2025-12-03 10:25:08,130] INFO [django.server:213] "GET /v1/customer-subscriptions/ HTTP/1.1" 200 873
+[2025-12-03 10:28:45,516] WARNING [django.request:253] Not Found: /v1/products/6
+[2025-12-03 10:28:45,516] WARNING [django.server:213] "GET /v1/products/6 HTTP/1.1" 404 12188
+[2025-12-03 10:29:02,874] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 12372
+[2025-12-03 10:34:16,132] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:34:16,610] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 10:34:19,916] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-03 10:34:19,942] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-03 10:34:23,661] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 10:34:23,682] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 10:34:31,555] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 10:34:31,576] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-03 16:29:22,174] INFO [django.server:213] "GET /v1/customer-subscriptions/ HTTP/1.1" 200 26147
+[2025-12-03 16:30:08,662] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 16:30:09,068] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 16:30:30,174] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 16:30:30,548] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-03 16:31:29,561] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 147992
+[2025-12-04 10:04:45,977] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-04 10:04:46,724] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-04 10:04:50,206] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-04 10:04:50,233] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-04 10:04:53,612] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-04 10:04:53,931] INFO [django.server:213] "GET /v1/customers/ HTTP/1.1" 200 60131
+[2025-12-04 10:11:50,837] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-04 10:11:50,965] INFO [django.server:213] "GET /v1/products/ HTTP/1.1" 200 835
+[2025-12-04 10:12:00,578] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-04 10:12:00,601] INFO [django.server:213] "GET /v1/subscriptionPlan/ HTTP/1.1" 200 417
+[2025-12-04 10:12:54,283] INFO [django.server:213] "GET /v1/customer-subscriptions/ HTTP/1.1" 200 26147
+[2025-12-04 10:16:45,516] INFO [django.server:213] "GET /v1/customer-subscriptions/ HTTP/1.1" 200 873
+[2025-12-04 10:20:51,398] INFO [django.server:213] "GET /v1/customer-subscriptions/1 HTTP/1.1" 301 0
+[2025-12-04 10:20:51,459] INFO [django.server:213] "GET /v1/customer-subscriptions/1/ HTTP/1.1" 200 288
+[2025-12-04 10:22:01,839] INFO [django.server:213] "GET /v1/customer-subscriptions/1/cancel HTTP/1.1" 301 0
+[2025-12-04 10:22:01,853] WARNING [django.request:253] Method Not Allowed: /v1/customer-subscriptions/1/cancel/
+[2025-12-04 10:22:01,858] WARNING [django.server:213] "GET /v1/customer-subscriptions/1/cancel/ HTTP/1.1" 405 40
+[2025-12-04 10:22:07,925] ERROR [django.request:253] Internal Server Error: /v1/customer-subscriptions/1/cancel
+Traceback (most recent call last):
+  File "D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\.env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\.env\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\.env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\.env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/v1/customer-subscriptions/1/cancel/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2025-12-04 10:22:07,957] ERROR [django.server:213] "POST /v1/customer-subscriptions/1/cancel HTTP/1.1" 500 85365
+[2025-12-04 10:22:25,841] INFO [django.server:213] "POST /v1/customer-subscriptions/1/cancel/ HTTP/1.1" 200 22
+[2025-12-04 10:22:39,819] WARNING [django.request:253] Bad Request: /v1/customer-subscriptions/
+[2025-12-04 10:22:39,820] WARNING [django.server:213] "POST /v1/customer-subscriptions/ HTTP/1.1" 400 287
+[2025-12-04 10:22:47,918] INFO [django.server:213] "GET /v1/customer-subscriptions/ HTTP/1.1" 200 876
+[2025-12-04 10:36:22,124] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\myapp\settings.py changed, reloading.
+[2025-12-04 10:36:27,802] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-12-04 10:36:33,126] INFO [django.utils.autoreload:265] D:\REACTNATIVE\Django_DeliveryApp\backend\myapp\myapp\settings.py changed, reloading.
+[2025-12-04 10:36:35,019] INFO [django.utils.autoreload:667] Watching for file changes with StatReloader
+[2025-12-04 10:36:41,975] INFO [django.server:213] "GET /v1/customer-subscriptions/ HTTP/1.1" 200 26150

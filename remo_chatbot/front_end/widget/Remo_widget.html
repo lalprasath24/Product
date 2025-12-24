@@ -1,0 +1,48 @@
+<div id="Remo-widget-container">
+    
+    <div id="floating-icon">🤖</div>
+
+    <div id="chat-window">
+        
+        <div id="chat-header">
+            <span>Remo Assistant</span>
+            <div id="chat-header-actions">
+                <button id="config-btn" title="Database Configuration">⚙️</button>
+                <button id="close-btn" title="Minimize Chat">−</button>
+            </div>
+        </div>
+
+        <div id="chat-box">
+            <div class="bot">Welcome! Click the gear icon to connect your database and start asking questions.</div>
+        </div>
+
+        <div id="chat-input-area">
+            <input type="text" id="user-input" placeholder="Ask your database a question..." disabled>
+            <button id="send-btn" title="Send Message" disabled>➤</button>
+        </div>
+    </div>
+</div>
+
+<div id="config-modal" class="modal-overlay">
+    <div class="modal-content">
+        <h3>Database Configuration</h3>
+        <form id="db-config-form">
+            
+            <label for="db-type" style="font-size: 14px; display: block; margin-bottom: 5px;">Database Type:</label>
+            <select id="db-type">
+                <option value="postgres">PostgreSQL</option>
+                <option value="mysql">MySQL</option>
+            </select>
+
+            <input type="text" id="db-host" placeholder="Host (e.g., localhost)">
+            <input type="number" id="db-port" placeholder="Port (e.g., 5432)">
+            <input type="text" id="db-name" placeholder="Database Name">
+            <input type="text" id="db-user" placeholder="User">
+            <input type="password" id="db-pass" placeholder="Password">
+            
+            <button type="submit">Connect & Save</button>
+        </form>
+        <p id="config-status"></p>
+        <button id="close-modal-btn" class="close-modal">Close</button>
+    </div>
+</div>

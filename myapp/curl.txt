@@ -1,0 +1,14 @@
+curl --location 'http://127.0.0.1:8000/v1/month_wise_customer_analytics?month=2&year=2024'
+curl --location 'http://127.0.0.1:8000/v1/month_wise_customer_analytics?deliveryarea_id=2'
+
+curl --location 'http://127.0.0.1:8000/v1/delivery_area_based_customers'
+curl --location 'http://127.0.0.1:8000/v1/delivery_area_based_customers?excel=true'
+
+
+curl --location 'http://127.0.0.1:8000/v1/products/'
+curl --location 'http://127.0.0.1:8000/v1/products/<id>'
+
+
+curl --location 'http://127.0.0.1:8000/v1/subscriptionPlan/'
+curl --location 'http://127.0.0.1:8000/v1/subscriptionPlan/<id>'
+
