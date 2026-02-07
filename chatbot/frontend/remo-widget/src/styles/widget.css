@@ -1,0 +1,310 @@
+.remo-chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: #007bff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 1000;
+  transition: transform 0.2s;
+}
+
+.remo-chat-icon:hover {
+  transform: scale(1.1);
+}
+
+.remo-chat-window {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 350px;
+  height: 500px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+}
+
+.remo-chat-header {
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remo-header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.remo-chat-header button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.upload-btn {
+  font-size: 16px !important;
+}
+
+.remo-upload-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.remo-upload-btn {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.remo-files-list h4 {
+  margin: 20px 0 10px 0;
+  color: #333;
+}
+
+.remo-file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.remo-file-item span {
+  font-weight: bold;
+}
+
+.remo-file-item small {
+  color: #666;
+}
+
+.remo-file-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.remo-settings-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1002;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remo-settings-modal {
+  background: white;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.remo-db-config-modal {
+  width: 500px;
+  max-width: 95vw;
+  max-height: 85vh;
+}
+
+.remo-db-config-modal .remo-settings-content {
+  max-height: calc(85vh - 80px);
+  overflow-y: auto;
+}
+
+.remo-settings-header {
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remo-settings-header h3 {
+  margin: 0;
+}
+
+.remo-settings-content {
+  padding: 20px;
+}
+
+.remo-form-group {
+  margin-bottom: 15px;
+}
+
+.remo-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.remo-form-group select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.remo-form-group input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.remo-settings-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.save-btn:hover:not(:disabled) {
+  background: #218838;
+}
+
+.save-btn:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+.cancel-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.cancel-btn:hover {
+  background: #5a6268;
+}
+
+.remo-chat-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.remo-message {
+  margin-bottom: 10px;
+}
+
+.remo-message.user .remo-message-content {
+  background: #007bff;
+  color: white;
+  margin-left: auto;
+  max-width: 80%;
+}
+
+.remo-message.bot .remo-message-content {
+  background: #f1f1f1;
+  color: #333;
+  max-width: 80%;
+}
+
+.remo-message-content {
+  padding: 10px 15px;
+  border-radius: 18px;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.remo-chat-input {
+  padding: 15px;
+  border-top: 1px solid #eee;
+  display: flex;
+  gap: 10px;
+}
+
+.remo-chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+}
+
+.remo-chat-input button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.remo-loader {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.remo-typing {
+  display: flex;
+  gap: 3px;
+  padding: 10px 15px;
+  background: #f1f1f1;
+  border-radius: 18px;
+}
+
+.remo-typing span {
+  width: 8px;
+  height: 8px;
+  background: #999;
+  border-radius: 50%;
+  animation: typing 1.4s infinite;
+}
+
+.remo-typing span:nth-child(2) { animation-delay: 0.2s; }
+.remo-typing span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typing {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-10px); }
+}
