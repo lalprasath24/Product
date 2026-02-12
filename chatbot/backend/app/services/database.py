@@ -6,6 +6,7 @@ from typing import List, Tuple
 from app.models.document import Base, Document
 from app.models.database_config import DatabaseConfig
 from app.core.config import settings
+from app.services.search_utils import hybrid_rrf_search
 
 logger = logging.getLogger("remo_ai")
 
@@ -29,6 +30,37 @@ async def init_db():
             conn.commit()
         
         Base.metadata.create_all(bind=engine)
+        
+        # Create HNSW index for vector similarity
+        with engine.connect() as conn:
+            conn.execute(text("""
+                CREATE INDEX IF NOT EXISTS documents_embedding_hnsw_idx
+                ON documents
+                USING hnsw (embedding vector_cosine_ops)
+            """))
+            
+            # Create trigger to auto-update full-text search vector
+            conn.execute(text("""
+                CREATE OR REPLACE FUNCTION documents_tsv_trigger() RETURNS trigger AS $$
+                BEGIN
+                    NEW.content_tsv := to_tsvector('english', NEW.content);
+                    RETURN NEW;
+                END
+                $$ LANGUAGE plpgsql
+            """))
+            
+            conn.execute(text("""
+                DROP TRIGGER IF EXISTS documents_tsv_update ON documents
+            """))
+            
+            conn.execute(text("""
+                CREATE TRIGGER documents_tsv_update
+                BEFORE INSERT OR UPDATE ON documents
+                FOR EACH ROW EXECUTE FUNCTION documents_tsv_trigger()
+            """))
+            
+            conn.commit()
+        
         logger.info("Database initialized successfully")
     except Exception as e:
         logger.error(f"Database initialization failed: {str(e)}")
@@ -61,33 +93,20 @@ async def store_document(filename: str, content: str):
         db.close()
 
 async def search_documents(query: str, limit: int = 3) -> List[Tuple[str, float]]:
-    """Search for similar documents using vector similarity"""
+    """Hybrid search: Vector similarity + Full-text search with RRF"""
     db = SessionLocal()
     
     try:
-        logger.info(f"Searching documents for query: {query[:50]}...")
-        # Generate query embedding
-        query_embedding = embedding_model.encode(query)
+        logger.info(f"Hybrid search for query: {query[:50]}...")
+        query_embedding = embedding_model.encode(query).tolist()
         
-        # Search for similar documents using cosine similarity
-        sql = text("""
-            SELECT content, 1 - (embedding <=> CAST(:embedding AS vector)) as similarity
-            FROM documents
-            WHERE 1 - (embedding <=> CAST(:embedding AS vector)) > 0.3
-            ORDER BY similarity DESC
-            LIMIT :limit
-        """)
+        results = hybrid_rrf_search(db, query_embedding, query, limit)
         
-        results = db.execute(sql, {
-            "embedding": str(query_embedding.tolist()),
-            "limit": limit
-        }).fetchall()
-        
-        logger.info(f"Found {len(results)} similar documents")
-        return [(row[0], row[1]) for row in results]
+        logger.info(f"Found {len(results)} documents via hybrid search")
+        return results
         
     except Exception as e:
-        logger.error(f"Document search failed: {str(e)}")
+        logger.error(f"Hybrid search failed: {str(e)}")
         raise
     finally:
         db.close()
